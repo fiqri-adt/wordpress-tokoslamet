@@ -1,0 +1,1 @@
+<?php // Diam adalah emas ?>

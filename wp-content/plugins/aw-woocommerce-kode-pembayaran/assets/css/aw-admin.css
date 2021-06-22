@@ -1,0 +1,97 @@
+#aw_admin #logo{
+	max-height:25px;
+	margin-right: -13px;
+}
+#aw_admin .input.large-text, textarea.large-text{
+	width:80%;
+}
+
+#aw_admin #awkp_admin_footer{
+	margin-top:-53px;
+	margin-left:105px;
+}
+
+#aw_admin #awkp_admin_footer form{
+	display:inline-block;
+	margin-left:8px;
+}
+
+#aw_admin #awkp_admin_footer input[type="submit"]{
+	height:30px;
+}
+
+#aw_admin .useful-links {
+  margin-left: 0;
+  display: block;
+  text-align: center;
+}
+#aw_admin .useful-links a{
+  text-decoration:none;	
+}
+#aw_admin .useful-links li {
+  display: inline;
+  padding-right: 1.618em;
+}
+#aw_admin .useful-links li:before{
+  font-family: 'dashicons';
+  position: relative;
+  top: 2px;
+  right: 5px;	
+}
+#aw_admin .useful-links .plugin_page:before{
+  content: "\f105";
+}
+#aw_admin .useful-links .documentation:before {
+  content: "\f123";
+}
+#aw_admin .useful-links .changelog:before {
+  content: "\f107";
+}
+#aw_admin .useful-links .support:before {
+  content: "\f107";
+}
+#aw_admin .woo-notice {
+  background: #FFFFFF;
+  border-left: 4px solid #255A8C;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+  -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+  -o-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+  margin: 5px 0 15px;
+  padding: 1px 12px;
+  font-size: 14px;
+}
+#aw_admin .woo-notice p {
+  margin: .5em 0;
+  padding: 2px;
+}
+#aw_admin .settings-section td .woo-notice {
+  margin-left: -10px;
+  margin-top: -15px;
+  margin-bottom: 0;
+}
+#aw_admin .plugin-name strong {
+  display: block;
+}
+/* Styling for the 'useful links' section on desktop and larger screens. */
+@media screen and (min-width: 700px) {
+  
+  #aw_admin #settings-sections.subsubsub {
+    position: relative;
+    margin-right: 140px;
+  }
+  #aw_admin .useful-links {
+    margin-left: 1em;
+    position: absolute;
+    right: 0;
+    text-align: left;
+  }
+
+}
+@media screen and (max-width: 700px) {
+	#logo{display:none;}
+}
+span.logo img {
+  height: auto;
+  max-height: 31px;
+}
